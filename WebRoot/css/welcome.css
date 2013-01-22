@@ -1,0 +1,14 @@
+body{background-image:url(../images/welcome_bg.gif);}
+#content{margin:100px 10%; }
+/*盛放杯子、logo、托盘的容器*/
+#content_left{float:left;position:relative;}
+/*logo*/
+#cup_all{display:block;margin-top:90px;right:0px;}
+/*杯底*/
+#cup_bottom{display:block;margin-top:6px;right:0px;}
+/*进入聊天按钮的容器，盛放按钮，网站说明*/
+#content_right{	float:left;	position:relative;}
+#welcome_btn{position:absolute;	display:block;	left:0px;	margin-top:125px;}
+#beginBtn{position:absolute;margin-top:220px;margin-left:320px;}
+a {text-decoration: none;color: #0099CC;width:105px;height:36px;font: 900 16px "Microsoft Yahei", Helvetica, sans-serif;text-align:center;line-height:36px;}
+a:hover {color: #576d07;background: url(../images/beginBtnGreen.gif) no-repeat top right;}

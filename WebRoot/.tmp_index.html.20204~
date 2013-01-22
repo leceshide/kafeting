@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>咖啡厅--聊天交友的最佳场所</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" />
+        <meta name="Keywords" content="咖啡厅,聊天,交友,实时聊天,同城交友,咖啡厅聊天室"/>
+        <meta name="Description" content="咖啡厅 www.kafeting.com是轻型的聊天交友社区，我们追求在娱乐放松的同时能结交四海知音。"/>
+        <link rel="stylesheet" href="../css/welcome.css" type="text/css" media="screen"  />
+		
+    </head>
+    <body>
+    	<!-- 这主页做得太烂了，连原作者我都有点受不了了!!!
+			 可是，一直做后端的我临时抱佛脚去做前端，真的吃不消啊，有木有！！！
+			 还请客观海涵哈~~~不好意思了^_^ 嘿嘿……
+		 -->
+        <div id="content">
+            <div id="content_left">
+                <img src="../images/cup_all.gif" alt="咖啡杯" id="cup_all"/><img src="../images/cup_bottom.gif" alt="托盘" id="cup_bottom"/>
+            </div>
+            <div id="content_right">
+                <img src="../images/welcome_btn_small.gif" alt="咖啡厅入场券" id="welcome_btn"/><!--开始聊天按钮--><a href="../common/main.html" title="进入聊天" id="beginBtn" target="_self">进入聊天</a>
+            </div>
+        </div>
+    </body>
+</html>

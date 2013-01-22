@@ -1,0 +1,57 @@
+.body{background-color:#FCFDF2;font-size:12px;}
+#chatWindow{margin:0 10%;min-width:650px;}
+#logo,#ads_header{float:left;position:relative;}
+#sys_count_header{float:right;position:relative;}
+.sys_count{font:normal normal bold 12pt/14pt 宋体;color:#EAA948;}
+.sys_tips{margin-left:20px;color:#090;}
+#content{margin:5px auto;min-width:650px;}
+#content_left{float:left;position:relative;width:62%;height:460px;border: 3px solid #dedede;	
+    -moz-border-radius: 10px;      /* Gecko browsers */
+    -webkit-border-radius: 10px;   /* Webkit browsers */
+    border-radius:10px;            /* W3C syntax */
+	padding:8px 0px 0px 8px;
+	overflow: auto;
+	scrollbar-shadow-color: #FFFFFF; 
+ 	scrollbar-highlight-color: #FFFFFF; 
+}
+#content_right{float:right;position:relative;margin:0 0 0 1px;height:460px;border: 3px solid #dedede;padding:8px 0px 0px 0px;}
+#bottom{margin:5px 0;}
+#linkSwitch,#post{width:80px;height:80px;border: 3px solid #dedede;}
+#linkSwitch:hover{border: 1px solid #39F;}
+#post:hover{border: 1px solid #39F;}
+#msg:hover{border: 1px solid #39F;}
+#linkSwitch{float:left;position:relative;}
+#post{float:right;position:relative;margin:0 0 0 1px;}
+
+#msg{float:left;position:relative;height:73px;margin:0 0 0 3px;overflow-x:hidden;overflow-y:hidden;word-break:break-all;resize:none;}
+/*font style*/
+span {font-family:Times, TimesNR, 'New Century Schoolbook',Georgia, 'New York', serif,Arial, "微软雅黑", "宋体";	font-size:14px;}
+.systemFormat{color:#666;font-size:12px;}
+.selfFormat{color:#F93;}
+.oppositeFormat{color:#06F;}
+.timeFormat{color:#CCC;margin-left:5px;}
+.sysTipsWraning{ color:#FF9933;font-size:12px;} 
+.sysTipsWrintting{ color:#FF9933;font-size:12px;}/*对方正在输入*/
+.sysTipsNone{ color:#FF9933;font-size:12px;}/*未找到聊天用户*/
+.sysTipsOffLine{ color:#FF9933;font-size:12px;}/*对方离线*/
+.sysTipsSendFail{ color:#CC3333;font-size:12px;}/*发送失败*/
+.sysTipsDisconnection{ color:#FF9933;font-size:12px;}/*断开连接*/
+.sysTipsStatic{ color:#FF9933;font-size:12px;} 
+.sysTipsError{color:#FF9933;font-size:12px;}
+
+hr{size:1px;color:#FF9933;border-style:dotted;}
+/*设置按钮样式*/
+.btn { display: block; position: relative; background: #9d4; padding: 3px; float: left; color: #fff; text-decoration: none; cursor: pointer; }
+.btn :hover{background-image: -moz-linear-gradient(top, #ffebc0,#ffc039,#ffc039,#ffebc0);}
+
+/*右侧妙语连珠样式*/
+#content{}
+#content_right ul{margin:0px;padding:0px;color:#0066CC;font: 900 16px "Microsoft Yahei",Helvetica, sans-serif;text-decoration: none;}
+ul li{list-style-type:none;text-decoration: none;color:#0099FF;font-size:12px;font-family:"Microsoft Yahei"; cursor:default;background:url(../images/dot.gif) 5px 9px no-repeat;padding-left:15px;}
+
+/*退出按钮disConBtn*/
+#disConBtn{	margin-top:3px;	margin-left:40px;}
+
+/*自己的推广广告*/
+#selfAddsHaha{margin-left:15px;color:#FF9933;font-size:12px;}
+
